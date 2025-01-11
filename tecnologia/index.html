@@ -5,40 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tecnologia</title>
     <link rel="stylesheet" href="./css/BootStrapCss/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
 </head>
-<body>
-    <div class="container-fluid mastermind">
+<body class="bg-secondary-subtle">
+    <div class="container-fluid mastermind bg-dark text-light">
         <h1>Tecnologia</h1>
     </div>
     
     <main>
         <!-- Main News -->
-        <article class="container">
+        <article class="container bg-body">
             <div class="row">
-                <div class="col mastermind">
-                    <h2>Primera Noticia</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum magni fugit est sequi corrupti doloremque cum architecto ipsa labore, dolore beatae? Aliquid magni, debitis tempore pariatur inventore sint aut quod.</p>
+                <div class="col-sm">
+                    <h2 class="text-center text-uppercase">Primera Noticia</h2>
+                    <p class="text-center fw-bold fs-6 fst-italic">Subtitulo</p>
+                    <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum magni fugit est sequi corrupti doloremque cum architecto ipsa labore, dolore beatae? Aliquid magni, debitis tempore pariatur inventore sint aut quod.</p>
+                    <a href="news.html" class="btn btn-primary btn-lg" role="button">Mas Información</a>
                 </div>
-                <div class="col mastermindgray80">
+                <div class="col-sm mastermindgray80">
                     <h2>Segunda Noticia</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum magni fugit est sequi corrupti doloremque cum architecto ipsa labore, dolore beatae? Aliquid magni, debitis tempore pariatur inventore sint aut quod.</p>
+                    <button type="button" class="btn btn-dark" onclick="window.location.href='news.html';">Mas Información</button>
                 </div>
             </div>
         </article>
 
         <!-- Secondary News -->
-         <article class="container">
+         <article class="container bg-body-tertiary">
             <div class="row">
-                <div class="col-6 mastermind">
+                <div class="col-sm-6 mastermind">
                     <h2>Tercera Noticia</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, laudantium sapiente. Ea cumque sapiente id repellat dignissimos, tempora explicabo odio placeat voluptates nobis enim? Ad sed ratione hic ipsam earum!</p>
+                    <p class="lh-lg"><span class="fw-bold">Lorem ipsum</span> dolor sit amet consectetur adipisicing elit. Ratione, laudantium sapiente. Ea cumque sapiente id repellat dignissimos, tempora explicabo odio placeat voluptates nobis enim? Ad sed ratione hic ipsam earum!</p>
                 </div>
-                <div class="col-3 mastermindgray80">
+                <div class="col-sm-3 mastermindgray80 text-end">
                     <h2>Tercera Noticia</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, laudantium sapiente. Ea cumque sapiente id repellat dignissimos, tempora explicabo odio placeat voluptates nobis enim? Ad sed ratione hic ipsam earum!</p>
+                    <p class="lh-sm"><span class="fw-bold">Lorem ipsum</span> dolor sit amet consectetur adipisicing elit. Ratione, laudantium sapiente. Ea cumque sapiente id repellat dignissimos, tempora explicabo odio placeat voluptates nobis enim? Ad sed ratione hic ipsam earum!</p>
                 </div>
-                <div class="col-3 mastermindgray60">
+                <div class="col-sm-3 mastermindgray60 text-end">
                     <h2>Tercera Noticia</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, laudantium sapiente. Ea cumque sapiente id repellat dignissimos, tempora explicabo odio placeat voluptates nobis enim? Ad sed ratione hic ipsam earum!</p>
                 </div>
@@ -47,37 +50,28 @@
 
         <!-- Other News -->
         <article class="container">
-            <div class="row row-cols-4">
-                <div class="col mastermindgray80">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 text-end">
+                <div class="col bg-body-secondary mastermindgray80">
                     <h2>Tercera Noticia</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sunt autem maiores animi eum, veritatis reprehenderit odio dolores asperiores iure reiciendis labore quo? Adipisci nesciunt laborum earum modi. Quia, tempora?</p>
                 </div>
-                <div class="col mastermindgray60">
+                <div class="col bg-dark-subtle mastermindgray60">
                     <h2>Cuarta Noticia</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam iusto, quasi error voluptatum inventore dolor sint facere optio asperiores. Aspernatur commodi quo facilis aliquid ab temporibus magnam! Eos, debitis neque?</p>
                 </div>
-                <div class="col mastermindgray80">
+                <div class="col bg-body-secondary mastermindgray80">
                     <h2>Quinta Noticia</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima iste ut iusto, nisi recusandae expedita perferendis hic consectetur odio aspernatur reprehenderit doloremque eos asperiores eum temporibus illum nihil repudiandae numquam.</p>
                 </div>
-                <div class="col mastermindgray60">
+                <div class="col bg-dark-subtle mastermindgray60">
                     <h2>Sexta Noticia</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, esse quos ad sint eaque maiores debitis dolorem neque ut! Officiis molestiae eum asperiores vero fugit maxime voluptatem tempora est ratione.</p>
                 </div>
-                <div class="col mastermindgray80">
+                <div class="col bg-body-secondary mastermindgray80">
                     <h2>Septima Noticia</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nesciunt veritatis voluptas saepe facilis itaque dolorum debitis ea, quas earum eaque quisquam quia, cum ut ex voluptatum qui consequuntur fugiat?</p>
                 </div>
             </div>
-        </article>
-         
-
-        <article class="container-lg mastermindgray80">
-            
-        </article>
-
-        <article class="container-xl mastermindgray60">
-            
         </article>
     </main>
     <script src="./js/BootStrapJs/bootstrap.bundle.min.js"></script>
