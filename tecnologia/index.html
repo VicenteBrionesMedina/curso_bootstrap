@@ -5,71 +5,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tecnologia</title>
     <link rel="stylesheet" href="./css/BootStrapCss/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body class="bg-secondary-subtle">
-    <div class="container-fluid mastermind bg-dark text-light">
+    <div class="container-fluid bg-dark text-light">
         <h1>Tecnologia</h1>
     </div>
     
     <main>
         <!-- Main News -->
-        <article class="container bg-body">
+        <article class="container">
             <div class="row">
                 <div class="col-sm">
-                    <h2 class="text-center text-uppercase">Primera Noticia</h2>
-                    <p class="text-center fw-bold fs-6 fst-italic">Subtitulo</p>
-                    <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum magni fugit est sequi corrupti doloremque cum architecto ipsa labore, dolore beatae? Aliquid magni, debitis tempore pariatur inventore sint aut quod.</p>
-                    <a href="news.html" class="btn btn-primary btn-lg" role="button">Mas Información</a>
+                    <div class="card">
+                        <img src="./img/img01.jpg" alt="..." class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Primera Noticia</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Subtitulo</h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum magni fugit est sequi corrupti doloremque cum architecto ipsa labore, dolore beatae? Aliquid magni, debitis tempore pariatur inventore sint aut quod.</p>
+                            <a href="news.html" class="btn btn-primary">Más Información</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm mastermindgray80">
-                    <h2>Segunda Noticia</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum magni fugit est sequi corrupti doloremque cum architecto ipsa labore, dolore beatae? Aliquid magni, debitis tempore pariatur inventore sint aut quod.</p>
-                    <button type="button" class="btn btn-dark" onclick="window.location.href='news.html';">Mas Información</button>
+
+                <!-- Lateral News -->
+                <div class="col">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./img/oppenheimer.jpg" alt="..." class="img-fluid object-fit-cover img-height100 rounded-start">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Segunda Noticia</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum magni fugit est sequi corrupti doloremque cum architecto ipsa labore, dolore beatae? Aliquid magni, debitis tempore pariatur inventore sint aut quod.</p>
+                                    <button type="button" class="btn btn-dark" onclick="window.location.href='news.html';">Mas Información</button>
+                                    <p class="card-text"><small class="text-body-secondary">Actualizado hace 3 minutos</small></p>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./img/oppenheimer.jpg" alt="..." class="img-fluid object-fit-cover img-height100 rounded-start">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Segunda Noticia</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum magni fugit est sequi corrupti doloremque cum architecto ipsa labore, dolore beatae? Aliquid magni, debitis tempore pariatur inventore sint aut quod.</p>
+                                    <button type="button" class="btn btn-dark" onclick="window.location.href='news.html';">Mas Información</button>
+                                    <p class="card-text"><small class="text-body-secondary">Actualizado hace 3 minutos</small></p>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </article>
 
         <!-- Secondary News -->
          <article class="container bg-body-tertiary">
-            <div class="row">
-                <div class="col-sm-6 mastermind">
-                    <h2>Tercera Noticia</h2>
-                    <p class="lh-lg"><span class="fw-bold">Lorem ipsum</span> dolor sit amet consectetur adipisicing elit. Ratione, laudantium sapiente. Ea cumque sapiente id repellat dignissimos, tempora explicabo odio placeat voluptates nobis enim? Ad sed ratione hic ipsam earum!</p>
+
+            <div class="card-group">
+                <div class="card">
+                    <img src="./img/img04.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Tercera Noticia</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem veniam voluptatem illo vel doloremque! Accusamus consequuntur, nemo incidunt, eum itaque aperiam dolor excepturi omnis, rem at odio neque voluptatum minima?</p>
+                        <p class="card-text">Actualizado hace 10 minutos<small class="text-body-secondary"></small></p>
+                    </div>
                 </div>
-                <div class="col-sm-3 mastermindgray80 text-end">
-                    <h2>Tercera Noticia</h2>
-                    <p class="lh-sm"><span class="fw-bold">Lorem ipsum</span> dolor sit amet consectetur adipisicing elit. Ratione, laudantium sapiente. Ea cumque sapiente id repellat dignissimos, tempora explicabo odio placeat voluptates nobis enim? Ad sed ratione hic ipsam earum!</p>
+                <div class="card">
+                    <img src="./img/img04.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Tercera Noticia</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis asperiores laudantium facere dolores incidunt facilis, accusantium hic aut veritatis reprehenderit repellat quas maxime, enim obcaecati praesentium ea labore. Placeat, suscipit?</p>
+                        <p class="card-text">Actualizado hace 10 minutos<small class="text-body-secondary"></small></p>
+                    </div>
                 </div>
-                <div class="col-sm-3 mastermindgray60 text-end">
-                    <h2>Tercera Noticia</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, laudantium sapiente. Ea cumque sapiente id repellat dignissimos, tempora explicabo odio placeat voluptates nobis enim? Ad sed ratione hic ipsam earum!</p>
+                <div class="card">
+                    <img src="./img/img04.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Tercera Noticia</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia animi asperiores aliquam corrupti quos maiores velit, odit enim? Veniam corporis illo perspiciatis nam harum temporibus neque, voluptas deleniti suscipit doloremque.Actualizado hace 10 minutos</p>
+                        <p class="card-text">Actualizado hace 10 minutos<small class="text-body-secondary"></small></p>
+                    </div>
                 </div>
             </div>
          </article>
 
         <!-- Other News -->
         <article class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 text-end">
-                <div class="col bg-body-secondary mastermindgray80">
-                    <h2>Tercera Noticia</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sunt autem maiores animi eum, veritatis reprehenderit odio dolores asperiores iure reiciendis labore quo? Adipisci nesciunt laborum earum modi. Quia, tempora?</p>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="./img/img03.jpg" alt="..." class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Tercera Noticia</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, ipsam mollitia. Eaque exercitationem accusantium, dicta animi praesentium modi expedita laborum! At totam quia quasi similique labore quas quam quos assumenda.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col bg-dark-subtle mastermindgray60">
-                    <h2>Cuarta Noticia</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam iusto, quasi error voluptatum inventore dolor sint facere optio asperiores. Aspernatur commodi quo facilis aliquid ab temporibus magnam! Eos, debitis neque?</p>
+                <div class="col">
+                    <div class="card">
+                        <img src="./img/img03.jpg" alt="..." class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Cuarta Noticia</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, amet nostrum. Asperiores, inventore ex. Tenetur minus, aliquid blanditiis nesciunt a molestias dicta aspernatur modi sapiente veniam ab veritatis quo necessitatibus.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col bg-body-secondary mastermindgray80">
-                    <h2>Quinta Noticia</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima iste ut iusto, nisi recusandae expedita perferendis hic consectetur odio aspernatur reprehenderit doloremque eos asperiores eum temporibus illum nihil repudiandae numquam.</p>
+                <div class="col">
+                    <div class="card">
+                        <img src="./img/img03.jpg" alt="..." class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Quinta Noticia</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorum quam minus ipsum. Nisi labore voluptatem aspernatur sint repudiandae vitae eius! Maiores nisi nemo animi suscipit impedit odio et! Ipsa!</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col bg-dark-subtle mastermindgray60">
-                    <h2>Sexta Noticia</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, esse quos ad sint eaque maiores debitis dolorem neque ut! Officiis molestiae eum asperiores vero fugit maxime voluptatem tempora est ratione.</p>
+                <div class="col">
+                    <div class="card">
+                        <img src="./img/img03.jpg" alt="..." class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Sexta Noticia</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque qui quasi dolore maxime quis quaerat neque obcaecati aut. In fugit inventore commodi, nihil quod molestiae corporis ut magni odio similique.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col bg-body-secondary mastermindgray80">
-                    <h2>Septima Noticia</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nesciunt veritatis voluptas saepe facilis itaque dolorum debitis ea, quas earum eaque quisquam quia, cum ut ex voluptatum qui consequuntur fugiat?</p>
+                <div class="col">
+                    <div class="card">
+                        <img src="./img/img03.jpg" alt="..." class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Septima Noticia</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore assumenda necessitatibus fuga nam enim quas dolore, nisi modi sint, quae, in odio ab asperiores eius? Magnam facere vitae magni porro?</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </article>

@@ -1,3 +1,7 @@
+.img-height100 {
+    height: 100%;
+}
+
 .mastermindgray80 {
     background-color: gray;
     color: white;
