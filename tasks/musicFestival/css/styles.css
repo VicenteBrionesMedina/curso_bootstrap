@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+
+#navbar-brand {
+    justify-content: center;
+}
+
+.radial-gradient {
+    background: radial-gradient(circle at 30% 50%, #ffffff00, #cbcbcb32, #9a9a9a44, #6c6c6c56, #40404068, #1a1a1a80, #000000, #000000, #000000, #000000, #000000, #000000);
+}
+
+.linear-gradient {
+    background: linear-gradient(270deg, rgba(255,255,255,0) 86%, rgba(0,0,0,1) 100%);
+}
+
+.start-15 {
+    left: 15%;
+} 
+
+.bottom-10 {
+    bottom: 10%;
+}
+
+.top-25 {
+    top: 25%;
+}
+
+.btn {
+    width: 35%;
+}
+
+.float-end {
+    line-height: unset;
+}
+
+.col-lg-4 {
+    z-index: 10;
+}
+
+.col-lg-8 h2 {
+    font-size: 5rem;
+}
+
+h2, ul, nav span {
+    font-family: "Bungee Outline", cursive;
+    text-shadow: 0 0 5px red,
+                 0 0 10px red,
+                 0 0 20px red,
+                 0 0 5px red;
+}
+
+.btn {
+    font-family: "Bungee Outline", cursive;
+    box-shadow: 0 0 5px red,
+                 0 0 10px red,
+                 0 0 20px red,
+                 0 0 5px red;
+}
+
+#tuesday {
+    top: 30%;
+}
+
+#wednesday {
+    top: 35%;
+}
+
+.mx-6 {
+    margin-right: 15rem;
+    margin-left: 15rem;
+}
+
+.my-6 {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
